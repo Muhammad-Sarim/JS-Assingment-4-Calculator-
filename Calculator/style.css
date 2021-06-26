@@ -1,0 +1,139 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+  background: #076585;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+span{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  word-spacing: 5px;
+  z-index: -1;
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 100px;
+  background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* For input center */
+.result{
+  width: 60%;
+  padding-left: 40%;
+}
+
+#input{
+  width: 55%;
+  margin: 20px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  font-size: 80px;
+  text-align: right
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    width: 65%;
+}
+
+td{
+    color: black;
+    background-color: #dfe6e9;
+    font-weight: 900;
+    text-align: center;
+    padding: 18px;
+    line-height: 90%;
+    font-size: 250%;
+    border: 2px solid #000;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+
+td:hover{
+  background-color: #2d3436;
+  color: #dfe6e9;
+}
+
+
+
+#equal{
+    background-color: red;
+}
+
+#equal:hover{
+  background-color: #c56cf0;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color: lightgray;
+  }
+  
+  .typing-demo {
+    width: 20ch;
+    animation: typing 5s infinite steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
